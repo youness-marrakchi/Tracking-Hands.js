@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+	<title>Javascript/tensorflow hand tracking program</title>
+
+	<!-- links -->
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<!-- fonts -->
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+<center>
+	<!-- Navbar -->
+	<nav class="navbar navbar-light bg-info">
+	  	<a style="color:#fff; text-align: center;" class="navbar-brand" href="#">
+	    	Welcome
+	  	</a>
+	</nav>
+
+	<br><br>
+
+	<audio src="assets/beep.mp3" id="audio"></audio>
+	<video id="video"></video>
+	<canvas id="canvas"></canvas>
+
+	<!-- Footer -->
+	<footer style="border-top: 1px solid #ccc;" class="page-footer font-small blue">
+  <!-- Copyright -->
+		<div class="footer-copyright text-center py-3">
+		    <a href="https://marrak.netlify.com" target="_blank"> Live Version</a>
+		    |
+		    <a href="https://github.com/youness-marrakchi" target="_blank"><i class="fa fa-github"></i> my github</a>
+		    |
+		    <a href="https://github.com/victordibia/handtrack.js/" target="_blank"><i class="fa fa-github"></i> HandTrack.js github</a>
+		 </div>
+  <!-- Copyright -->
+	</footer>
+<!-- Footer -->
+
+</center>
+
+	<!-- Load the handtrackjs model. -->
+	<script src="https://cdn.jsdelivr.net/npm/handtrackjs/dist/handtrack.min.js"> </script>
+	<script type="text/javascript" src="js/index.js"></script>
+
+</body>
+</html>
